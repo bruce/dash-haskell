@@ -1,15 +1,14 @@
-name:                Dash
+name:                dash
 version:             0.1
 synopsis:            FiveRuns Dash library for Haskell
-description:         Provides an API to send data from Haskell applications to the FiveRuns Dash service, http://dash.fiveruns.com
+description:         Provides an API for Haskell applications to the FiveRuns Dash service, http://dash.fiveruns.com
 category:            Data
 license:             BSD3
 license-file:        LICENSE
-author:              Bruce Williams <bruce@codefluency.com>
-maintainer:          Bruce Williams <bruce@codefluency.com>
-build-depends:       base
-                     json
-                     url
-                     curl
+author:              Bruce Williams <bruce@codefluency.com>, Adam Keys <adam@therealadam.com>
+maintainer:          Bruce Williams <bruce@codefluency.com>, Adam Keys <adam@therealadam.com>
+build-depends:       base, json, url, curl
 build-type:          Simple
 ghc-options:         
+extra-source-files:
+    README.markdown
