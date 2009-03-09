@@ -12,3 +12,5 @@ build-type:          Simple
 ghc-options:         
 extra-source-files:
     README.markdown
+exposed-modules: Web.Dash,
+                 Web.Dash.Fetch    
